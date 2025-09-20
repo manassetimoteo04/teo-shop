@@ -9,13 +9,13 @@ export default function Nav() {
             Home
           </Link>{" "}
           <Link href="#" className="hover:text-black ">
-            Categories
+            Categorias
           </Link>{" "}
           <Link href="#" className="hover:text-black">
-            Products
+            Productos
           </Link>{" "}
           <Link href="#" className="hover:text-black">
-            Promotions
+            Promoções
           </Link>
         </li>
       </ul>
