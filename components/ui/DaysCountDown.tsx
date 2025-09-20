@@ -48,19 +48,19 @@ export default function DaysCountDown() {
 
   return (
     <div className="grid gap-[2rem] grid-cols-4">
-      <div className="flex items-center w-[8rem] justify-center rounded-2xl h-[8rem] bg-gray-100 flex-col">
+      <div className="flex items-center w-[8rem] justify-center rounded-2xl h-[8rem] bg-white flex-col">
         <span className="text-[2.5rem]">{timeLeft.days}</span>
         <span>Dias</span>
       </div>
-      <div className="flex items-center w-[8rem] justify-center rounded-2xl h-[8rem] bg-gray-100 flex-col">
+      <div className="flex items-center w-[8rem] justify-center rounded-2xl h-[8rem] bg-white flex-col">
         <span className="text-[2.5rem]">{timeLeft.hours}</span>
         <span>Horas</span>
       </div>
-      <div className="flex items-center w-[8rem] justify-center rounded-2xl h-[8rem] bg-gray-100 flex-col">
+      <div className="flex items-center w-[8rem] justify-center rounded-2xl h-[8rem] bg-white flex-col">
         <span className="text-[2.5rem]">{timeLeft.minutes}</span>
         <span>Min.</span>
       </div>
-      <div className="flex items-center w-[8rem] justify-center rounded-2xl h-[8rem] bg-gray-100 flex-col">
+      <div className="flex items-center w-[8rem] justify-center rounded-2xl h-[8rem] bg-white flex-col">
         <span className="text-[2.5rem]">{timeLeft.seconds}</span>
         <span>Seg.</span>
       </div>
