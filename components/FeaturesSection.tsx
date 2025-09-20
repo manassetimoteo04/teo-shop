@@ -12,7 +12,7 @@ export default function FeaturesSection() {
         />
         <FeatureBox
           icon={<DollarSign />}
-          title="Money Guarantee"
+          title="Garantia"
           description="30 dias de garantias de retorno"
         />
         <FeatureBox
@@ -22,7 +22,7 @@ export default function FeaturesSection() {
         />
         <FeatureBox
           icon={<CreditCard />}
-          title="Flexible Payment"
+          title="Flexibilidade de Pagamento"
           description="Pay with multiple credit cards"
         />
       </div>
