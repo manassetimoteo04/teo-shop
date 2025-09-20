@@ -8,7 +8,7 @@ export default function Heading({ as = "h2", children }: HeadingType) {
     h1: "text-[5rem]",
     h2: "text-[4rem]",
     h3: "text-[3rem]",
-    h4: "text-[4rem]",
+    h4: "text-[2rem]",
   };
   return <Component className={`${styles[as]}`}>{children}</Component>;
 }
