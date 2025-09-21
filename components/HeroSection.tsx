@@ -1,6 +1,5 @@
 import Button from "@/components/ui/Button";
 import { ChevronRight } from "lucide-react";
-import Image from "next/image";
 
 export default function HeroSection() {
   return (
@@ -10,7 +9,7 @@ export default function HeroSection() {
           Encontre tudo o que você procura em um só lugar
         </h1>
         <p>
-          Descubra roupas, calçados e acessórios que combinam com você.
+          Descubra Ipads, smartphones e acessórios que combinam com você.
           Exclusividade e preços que cabem no bolso.
         </p>
         <Button>
