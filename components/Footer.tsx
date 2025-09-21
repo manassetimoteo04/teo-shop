@@ -5,7 +5,6 @@ export default function Footer() {
         <h1>TeoShop</h1>
         <div>
           <p>@2025 TeoShop. Todos os direitos reservados</p>
-          <span>made by Manasse Timóteo</span>
         </div>
       </div>
     </footer>
