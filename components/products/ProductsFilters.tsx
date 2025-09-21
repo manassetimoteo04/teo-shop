@@ -20,7 +20,7 @@ export default function ProductsFilters() {
     <div className="flex flex-col gap-[3rem]">
       <div>
         <Heading as="h4">Filtros por categoria</Heading>
-        <div className="flex gap-[0.4rem] mt-[1rem] flex-wrap">
+        <div className="flex gap-[0.4rem] mt-[3rem] flex-wrap">
           {filters.map((filter) => (
             <span
               onClick={() =>
@@ -44,7 +44,7 @@ export default function ProductsFilters() {
       </div>
       <div>
         <Heading as="h4">Ordernar Por</Heading>
-        <div className="flex gap-[0.4rem] mt-[1rem] flex-col">
+        <div className="flex gap-[0.4rem] mt-[2rem] flex-col">
           <div className="flex gap-[0.5rem] items-center">
             <input
               onChange={() => setSort("asc")}
@@ -65,7 +65,7 @@ export default function ProductsFilters() {
               name="desc"
               id="desc"
             />
-            <label onClick={() => setSort("asc")} htmlFor="desc">
+            <label onClick={() => setSort("desc")} htmlFor="desc">
               Decrescente
             </label>
           </div>
