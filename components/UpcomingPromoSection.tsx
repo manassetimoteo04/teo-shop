@@ -9,7 +9,7 @@ export default function UpcomingPromoSection() {
       <div className="max-w-[120rem] m-[0_auto]">
         <div className="grid grid-cols-2 gap-[4rem]">
           <div className=" flex flex-col gap-[2rem] items-start">
-            <Heading as="h3">Descontos do Mês</Heading>
+            <Heading as="h2">Descontos do Mês</Heading>
             <p className="text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
               ex est commodi aperiam mollitia, odit itaque nesciunt repellat

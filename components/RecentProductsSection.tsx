@@ -33,7 +33,7 @@ export default function RecentProductsSection() {
   return (
     <section className="max-w-[120rem] m-[16rem_auto]">
       <div className="flex justify-between items-center">
-        <Heading as="h3">Productos Recentes</Heading>
+        <Heading as="h2">Productos Recentes</Heading>
         <Link href="/products" className="text-gray-500  hover:text-gray-950">
           Ver todos
         </Link>
