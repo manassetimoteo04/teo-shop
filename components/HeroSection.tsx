@@ -3,7 +3,7 @@ import { ChevronRight } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <div className="px-[6rem]  bg-no-repeat bg-[url('/hero/hero-1.png')] bg-gray-50 text-gray-500 h-[calc(100dvh-7rem)] gap-[4rem] items-center grid grid-cols-2">
+    <div className="px-[6rem]  bg-no-repeat bg-[url('/hero/hero-1.png')] bg-gray-50 text-gray-500 h-[calc(100dvh)] mt-[7rem] gap-[4rem] items-center grid grid-cols-2">
       <div className="flex flex-col items-start gap-[2rem]">
         <h1 className="text-[5rem] text-black font-bold ">
           Encontre tudo o que você procura em um só lugar

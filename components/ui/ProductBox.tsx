@@ -1,3 +1,4 @@
+import generateSlug from "@/utils";
 import { DollarSign } from "lucide-react";
 import Link from "next/link";
 
@@ -10,7 +11,10 @@ type ProductType = {
 };
 export default function ProductBox({ product }: { product: ProductType }) {
   return (
-    <Link href="/products/" className="flex flex-col gap-[1.5rem]">
+    <Link
+      href={`/products/${generateSlug(product.name)}`}
+      className="flex flex-col gap-[1.5rem]"
+    >
       <div className=" h-[25rem] flex items-center justify-center bg-gray-100 p-[3rem] rounded-2xl w-full l">
         <img src={product.image} alt="img" className="!h-full w-auto " />
       </div>

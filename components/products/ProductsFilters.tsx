@@ -51,11 +51,9 @@ export default function ProductsFilters() {
               checked={sort === "asc"}
               type="radio"
               name="asc"
-              id="desc"
+              id="asc"
             />
-            <label onClick={() => setSort("asc")} htmlFor="asc">
-              Crescente
-            </label>
+            <label htmlFor="asc">Crescente</label>
           </div>
           <div className="flex gap-[0.5rem] items-center">
             <input
@@ -65,9 +63,7 @@ export default function ProductsFilters() {
               name="desc"
               id="desc"
             />
-            <label onClick={() => setSort("desc")} htmlFor="desc">
-              Decrescente
-            </label>
+            <label htmlFor="desc">Decrescente</label>
           </div>
         </div>
       </div>
