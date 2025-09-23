@@ -25,11 +25,11 @@ export default function HeroGridImages({
           {imgs.map((img) => (
             <motion.div
               key={img}
-              className="w-[10rem] relative overflow-hidden bg-white p-[0.3rem] rounded-xl  h-[10rem]"
+              className="w-[10rem] backdrop-blur-lg relative overflow-hidden  p-[0.3rem] rounded-xl  h-[10rem]"
             >
               <img
                 draggable={false}
-                className="w-auto !h-full top-0 left-0 absolute object-contain"
+                className="w-auto backdrop-blur-lg !h-full top-0 left-0 absolute object-contain"
                 src={img}
                 alt=""
               />
