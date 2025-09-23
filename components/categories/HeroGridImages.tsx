@@ -28,6 +28,7 @@ export default function HeroGridImages({
               className="w-[10rem] backdrop-blur-lg relative overflow-hidden  p-[0.3rem] rounded-xl  h-[10rem]"
             >
               <img
+                style={{ filter: "brightness(0)" }}
                 draggable={false}
                 className="w-auto backdrop-blur-lg !h-full top-0 left-0 absolute object-contain"
                 src={img}
